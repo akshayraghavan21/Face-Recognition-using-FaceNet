@@ -73,7 +73,7 @@ Loss Function Used:
 
 FaceNet model is a deep convolutional network that employs triplet loss function. Triplet loss function minimizes the distance between a positive and an anchor while maximizing the distance between the anchor and a negative.
 
-<img src="https://www.researchgate.net/profile/Marc_Chaumont/publication/330092791/figure/fig4/AS:710676725129216@1546449943595/Scheme-of-the-learning-process-of-our-adapted-triplet-loss-function-See-the-Equation-6.ppm"  width="250" height="250" /> 
+<img src="https://www.researchgate.net/profile/Marc_Chaumont/publication/330092791/figure/fig4/AS:710676725129216@1546449943595/Scheme-of-the-learning-process-of-our-adapted-triplet-loss-function-See-the-Equation-6.ppm"  width="500" height="350" /> 
 Taken from the original paper
 
 References:
