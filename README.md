@@ -45,7 +45,7 @@ These are the images that will be used to train the classifier and perform face 
 
 To extract useful information from the images in terms of bounding boxes around the face, run the script align_dataset_mtcnn.py at lib/src/align/ (sample command is given in the script) to generate the aligned images from the ~/datasets/before/ folder. 
 
-[Before alignment]<img src="https://github.com/vinayakkailas/face_recognition/blob/master/server/static/images/1.jpg"  width="250" height="250" />    [After alignment] <img src="https://github.com/vinayakkailas/face_recognition/blob/master/server/static/images/2.png"  width="250" height="250" /> 
+[Before alignment](https://github.com/akshayraghavan21/Face_Recognition_Using_Facenet/blob/master/Static/MVIMG_20191005_195238_0.png)   [After alignment] <img src="https://github.com/akshayraghavan21/Face_Recognition_Using_Facenet/blob/master/Static/MVIMG_20191005_195238_0.png"  width="250" height="250" /> 
 
 3. Download [pre-trained-weight](https://drive.google.com/open?id=1R77HmFADxe87GmoLwzfgMu_HY0IhcyBz) ,extract and keep it in lib/src/ckpt folder (for detailed info about availabe weights: [available-weights](https://github.com/davidsandberg/facenet#pre-trained-models)) 
 
@@ -67,11 +67,9 @@ Run the script to start up your webcam and detect face.
  
  ## sample result 
  
- ![alt text](https://github.com/vinayakkailas/face_recognition/blob/master/server/static/images/vinayak.jpeg)
- 
-for more information, please go through my [blog](https://medium.com/@vinayakvarrier/building-a-real-time-face-recognition-system-using-pre-trained-facenet-model-f1a277a06947)  
+ ![alt text](https://github.com/akshayraghavan21/Face_Recognition_Using_Facenet/blob/master/Static/Screen%20Shot%202019-10-16%20at%204.16.41%20AM.png)
+  
 
-NOTE: The faces are identified using retrievel method, instead if you have enough data, you can train a classifier on top of face embeddings ([Train-a-classifier-on-own-images](https://github.com/davidsandberg/facenet/wiki/Train-a-classifier-on-own-images)) 
 
 References:
 
