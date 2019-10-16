@@ -69,7 +69,12 @@ Run the script to start up your webcam and detect face.
  
  ![alt text](https://github.com/akshayraghavan21/Face_Recognition_Using_Facenet/blob/master/Static/Screen%20Shot%202019-10-16%20at%204.16.41%20AM.png)
   
+Loss Function Used:
 
+FaceNet model is a deep convolutional network that employs triplet loss function. Triplet loss function minimizes the distance between a positive and an anchor while maximizing the distance between the anchor and a negative.
+
+<img src="https://www.researchgate.net/profile/Marc_Chaumont/publication/330092791/figure/fig4/AS:710676725129216@1546449943595/Scheme-of-the-learning-process-of-our-adapted-triplet-loss-function-See-the-Equation-6.ppm"  width="250" height="250" /> 
+Taken from the original paper
 
 References:
 
